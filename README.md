@@ -17,7 +17,7 @@ This repository contains source code and data for paper "Hierarchical Structure 
   <img src="images/StrucHIS-framework.png" height="250"/>
   <img src="images/StrucHIS-detail.png" height="250"/>
 </p>
-Figure 1: The overview framework of our StrucHIS. It is a heterogeneous graph-based Multi-task Learning framework that explicitly regulates structural knowledge sharing. It breaks down the structure learning phase into multiple stages and introduces sharing mechanisms at each stage, ensuring that task-specific requirements are addressed during each stage.
+Figure 1: The left figure shows the overview framework of our StrucHIS and the right figure shows the details of the structural information sharing module within each layer. Our StrucHIS is a heterogeneous graph-based Multi-task Learning framework that explicitly regulates structural knowledge sharing. It breaks down the structure learning phase into multiple stages and introduces sharing mechanisms at each stage, ensuring that task-specific requirements are addressed during each stage.
 
 
 
@@ -88,7 +88,7 @@ All results will be saved in the `Result` folder, including:
 
 - `best_model_{i}.py`: The best model parameters saved from the *i*-th training run.
 - `best_result.json`: Contains the test set performance of the best model from each training run.
-- `log.txt`: Logs of the training process.
+- `log.txt`: Logs of the training process. The final part of the file will record the average value and fluctuation range of the results from all training runs.
 
 
 
