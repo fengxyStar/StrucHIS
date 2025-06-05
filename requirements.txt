@@ -1,0 +1,7 @@
+dgl>=0.9.1 @ https://data.dgl.ai/wheels/dgl_cu111-0.9.1-cp37-cp37m-manylinux1_x86_64.whl 
+torch==1.10.1+cu111
+numpy==1.21.6
+tqdm==4.64.1
+scikit-learn==0.23.1
+scipy==1.5.4
+PyYAML==6.0

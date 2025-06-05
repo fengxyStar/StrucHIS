@@ -1,0 +1,35 @@
+
+## data setting
+# dataset
+dataset: DBLP
+# task 
+Target_Node_Type: ['author', 'paper'] 
+task_name: ['author', 'paper']  
+task_to_node: {'author':'author', 'paper':'paper'}
+task_type: {'author':'single-label', 'paper':'single-label'} 
+class_num: [4, 20]
+
+
+## training setting 
+rerun_num: 5
+# epoch
+train_epoch: 2000
+early_stop: 40
+# optimizer
+learning_rate: 0.00005
+weight_decay: 0 
+loss_weight: [0.005, 0.995]
+# metric
+save_metric: loss
+
+## evaluation setting
+eval_inter_ep: 10
+
+## Bacbone model parameter
+layer_num: 3
+node_feature_hid_len: 64  
+GAT_hid_len: 64 
+edge_feats_len: 64
+nhead: 1 
+
+

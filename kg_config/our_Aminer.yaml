@@ -1,0 +1,36 @@
+
+## data setting
+# dataset
+dataset: Aminer
+# task
+Target_Node_Type: ['author', 'paper'] 
+task_name: ['author', 'paper']  
+task_to_node: {'author':'author', 'paper':'paper'}
+task_type: {'author':'multi-label', 'paper':'single-label'} 
+class_num: [4, 4]
+
+
+## training setting 
+rerun_num: 5
+# epoch
+train_epoch: 2000
+early_stop: 40
+# optimizer
+learning_rate: 0.005
+weight_decay: 0 
+loss_weight: [1., 1.]
+# metric
+save_metric: micro
+
+## evaluation setting
+eval_inter_ep: 10
+
+## Bacbone model parameter
+layer_num: 3
+node_feature_hid_len: 64  
+GAT_hid_len: 64 
+edge_feats_len: 64
+nhead: 1 
+
+
+
