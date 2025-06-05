@@ -1,6 +1,6 @@
 # StrucHIS
 
-This repository contains source code and data description for paper "Hierarchical Structure Sharing Empowers Multi-task Heterogeneous GNNs for Customer Expansion". (accepted by KDD 2025 Applied Data Science Track).
+This repository contains source code and data for paper "Hierarchical Structure Sharing Empowers Multi-task Heterogeneous GNNs for Customer Expansion". (accepted by KDD 2025 Applied Data Science Track).
 
 
 ## Table of Contents
