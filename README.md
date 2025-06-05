@@ -14,8 +14,8 @@ This repository contains source code and data for paper "Hierarchical Structure 
 
 ## Overview
 <p align="center">
-  <img src="images/StrucHIS-framework.png" height="200"/>
-  <img src="images/StrucHIS-detail.png" height="200"/>
+  <img src="images/StrucHIS-framework.png" height="300"/>
+  <img src="images/StrucHIS-detail.png" height="300"/>
 </p>
 Figure 1: The overview framework of our StrucHIS. It is a heterogeneous graph-based Multi-task Learning framework that explicitly regulates structural knowledge sharing. It breaks down the structure learning phase into multiple stages and introduces sharing mechanisms at each stage, ensuring that task-specific requirements are addressed during each stage.
 
